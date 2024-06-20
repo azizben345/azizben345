@@ -1,0 +1,364 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>GitHub ePortfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">About Me</a></li>
+							<li><a href="#two">Content</a></li>
+							<li><a href="#three">Reflection</a></li>
+							<li><a href="#four">Contact Me</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Welcome</h1>
+							<p>To my GitHub e-Portfolio! Here, you'll find a 
+								collection of my projects, code, and collaborations 
+								that showcase my journey and growth as a developer. 
+								Feel free to explore or reach out with any questions.</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Let's Start!</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+				<section id="one" class="wrapper style2 spotlights">
+					<section>
+						<!--put profile pic down here-->
+						<a href="#" class="image"><img src="images/profile_pic.jpg" alt="" data-position="center center" /></a>
+						<div class="content">
+							<div class="inner">
+								<h2>About Me</h2>
+								<p>
+									Computer Science Student | Web Developer | Problem Solver.<br>
+									An aspiring student, with the eagerness to learn and explore.
+								</p>
+								<button onclick="toggleBio()" class="button">Biodata</button>
+								<div id="bioContent" style="display:none; margin-top: 1em;">
+									<table>
+										<thead>
+											<tr>
+												<th></th>
+												<th></th>	
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td><b>Name:</b></td>
+												<td>Abdul Aziz bin Mabeni</td>
+											</tr>
+											<tr>
+												<td><b>Occupation:</b></td>
+												<td>Student</td>
+											</tr>
+											<tr>
+												<td><b>Birthplace: </b></td>
+												<td>Pontian, Johor</td>
+											</tr>
+											<tr>
+												<td><b>Birthdate: </b></td>
+												<td>21 August 2003</td>
+											</tr>
+											<tr>
+												<td><b>Interests: </b></td>
+												<td>Problem Solving, Web Development, AI</td>
+											</tr>
+											<tr>
+												<td><b>Career Goals: </b></td>
+												<td>Software Engineer, Front-End Developer, Game Developer</td>
+											</tr>
+										</tbody>
+										<tfoot>
+											<tr>
+												<td colspan="1"></td>
+												<td></td>
+											</tr>
+										</tfoot>
+									</table>
+									<p>
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
+				
+				<script>
+				function toggleBio() {
+					var bio = document.getElementById("bioContent");
+					if (bio.style.display === "none") {
+						bio.style.display = "block";
+					} else {
+						bio.style.display = "none";
+					}
+				}
+				</script>
+				</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Core Content</h2>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-book"></span>
+									<h3>Education</h3>
+									<p>
+										Currently pursuing degree in 
+										<a href="https://comp.utm.my/secj/#"><b>Bachelor of Computer Science (Software Engineering) with Honours</b></a>
+										in <a href="https://www.utm.my/"><b>University of Technology Malaysia</b></a>.
+									</p>
+									<p>Expecting to graduate in year 2026.</p>
+								</section>
+								
+								<section>
+									<span class="icon solid major fa-cogs"></span>
+									<h3>Skills</h3>
+									<h4>Programming Language:</h4>
+									<p>
+										<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" />
+										<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" />
+										<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg" width="36" height="36" alt="PHP" />
+										<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" />								
+										<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" />
+										<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" />
+									</p>
+									<h4>Frameworks/Software/Tools:</h4>
+									<p>
+										<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" width="36" height="36" alt="VS Code" />
+										<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" />
+									</p>
+									<h4>Soft Skills:</h4>
+									<p>Teamwork, Problem Solving, Communication</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-marker"></span>
+									<h3>Courses</h3>
+									<h4>Some relevant courses taken:</h4>
+									<p>Data Structure & Algorithm<br>
+									Object Oriented Progamming<br>
+									Web Programming<br>
+									Software Design & Architecture<br>
+									Requirements Engineering</p>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Honors & Awards</h3>
+									<ul><b>Dean's List</b> (Session 23/24 - Semester 1 & 2)</ul>
+									<img src="images/deanlistcert_pic.jpg" alt="Dean List Certificate" data-position="center center" 
+									style="width: 200px;" />
+								</section>
+								<section style="width: 200%;">
+									<span class="icon solid major fa-file-code"></span>
+									<h3>Projects</h3>
+									<p>Some projects I previously worked on:</p>
+									<table style="width: auto; margin: 0 auto; padding: 20px; box-sizing: border-box;">
+										<thead>
+											<tr>
+												<th>Title</th>
+												<th>Description</th>
+												<th>Technologies</th>	
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td><b>ALADDIN</b></td>
+												<td>
+													A prototype of an e-commerce system, with features not only can
+													buy items as customers, but can also sell items as sellers.
+													Object informations are stored and managed in files.
+												</td>
+												<td>C++, VSCode</td>
+											</tr>
+											<tr>
+												<td><b>Food Delivery App</b></td>
+												<td>
+													A system that allows users to order food and pay online
+													with in-depth implementation of OOP.
+												</td>
+												<td>Java, VSCode</td>
+											</tr>
+											<tr>
+												<td><b>CPU Benchmark</b></td>
+												<td>
+													An assembly language project that executes iterative looping
+													of an equation and records the CPU time taken to
+													benchmark the performance of the device running it.
+												</td>
+												<td>Assembly Language, VS2022</td>
+											</tr>
+									</table>
+								</section>
+								<section>
+									<span class="icon solid major fa-user"></span>
+									<h3>Position</h3>
+									<p>Currently no relevant position.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+					<!-- Three -->
+					<section id="three" class="wrapper style2 fade-up">
+						<div class="inner">
+							<h2>Reflection</h2>
+							<div style="border: 2px inset #f3f3f3; padding: 20px;">
+								<p>
+									Throughout the whole semester of the course SECV-2223 (Web Programming), 
+									I have been assigned to some tasks related to the course:<br>
+									1. Assignment 1: Report<br>
+									2. Assignment 2: Website<br>
+									3. Assignment 3: GitHub e-Portfolio<br>
+									4. Project<br>
+									After receiving comments from the lecturer, I have reflected 
+									on my submitted assignments and project.
+								</p>
+								<p>
+									In <b>Assignment 1: Report</b>, I conducted a comparative evaluation of
+									5 e-commerce websites using Google Lighthouse. From this assignment, I 
+									learnt to evaluate critical aspects of websites, such as performance and 
+									accessibility. By comparing websites side by side, I can identify key 
+									strengths and weaknesses in their web design and functionality. These 
+									findings can serve as a guide for the developers to improve their web 
+									platforms and enhance their overall efficiency.<br>
+									For improvements, I suggests to incorporating more visual aids like 
+									charts and graphs could further enhance the clarity and impact of the report.
+								</p>
+								<p>
+									In <b>Assignment 2: Website</b>, I created a  personal website landing page 
+									using HTML and CSS Grid layout. From this assignment, I 
+									learnt to effectively organize the webpage into distinct sections: header, 
+									left and right menus, content, and footer, ensuring a logical flow and easy 
+									navigationof the website. With the provided theme samples as references, 
+									they helped in replicating a professional and aesthetically pleasing design, 
+									which includes welcome header, navigational menu and copyright notice. 
+									CSS played an important role to ensure not only the visual, but also 
+									the responsiveness across devices. Overall, this assignment not only reinforced 
+									my understanding of HTML and CSS Grid but also underscored the importance of 
+									user-centered design and personalization in web development.<br>
+									For improvements, I suggests more freedom given to students on how to structure
+									the website, not restricting to certain format. I understand this is to test 
+									certain topic uniformly, but it is better to give them
+									space to explore their creativity.
+								</p>
+								<p>
+									In <b>Assignment 3: GitHub e-Portfolio</b>, which is this particular assignment, 
+									I created an e-portfolio using the platform GitHub, implementing web programming.
+									From this assignment, it was an enriching experience which allows me to showcase 
+									my academic journey in an organized, digital format. It also tested my overall understanding 
+									and proficiency in HTML, CSS and JavaScript language. Building the e-portfolio on GitHub 
+									consolidated my understanding of version control and repository management. 
+									It was gratifying to see all my work presented in one cohesive platform. This not only
+									only helped me reflect on my accomplishments but also highlighted areas for future growth.<br>
+									For improvements, I suggests that students should update the e-portfolio regularly,
+									even outside of the assignment, as it can serve well in a career pursuing and growth.
+								</p>
+								<p>
+									In the <b>Project</b>, we made a web-based hostel damage complaint system.
+									Working on the project provided practical experience in 
+									applying theoretical knowledge to real-world problems. It tested our whole 
+									proficiency in HTML, CSS, JavaScript, PHP, MySQL, and also in hosting website 
+									locally and using assisting software(GitHub and localhost000). Not only it honed 
+									my problem-solving skills and fostered creativity and innovation, it also enhance
+									my team skills, such as communication and collaborations.<br>
+									For improvements, I suggests the tutorial for the website hosting is more 
+									in-depth and updated, as the suggested software may be updated from time to time.
+								</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Four -->
+					<section id="four" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Contact Me</h2>
+							<p>...</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>No. 20, Batu 30, Pengkalan Raja<br>
+											81500, Pontian, Johor<br>
+											Malaysia</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">azizmabeni@gmail.com</a><br>
+											<a href="#">abdul-03@graduate.utm.my</a>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; SECV2223-06. Assignment 3. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
