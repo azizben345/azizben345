@@ -7,7 +7,7 @@ Student
 I'm a student in Computer Science (Software Engineering). Currently studying in University of Technology Malaysia.
 
 * 🌍  I'm based in Skudai, Johor, Malaysia
-* ✉️  You can contact me at [abdul-03@graduate.utm.my](mailto:abdul-03@graduate.utm.my)
+* ✉️  You can contact me at [abdul-03@graduate.utm.my](mailto:abdul-03@graduate.utm.my) or [azizmabeni@gmail.com](mailto:azizmabeni@gmail.com)
 
 ### Skills
 
